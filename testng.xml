@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM
+"https://testng.org/testng-1.0.dtd">
+
+<suite name="Smart Retail Automation Suite">
+
+    <test name="Retail Workflow Validation Tests">
+
+        <classes>
+
+            <class name="tests.AuthenticationWorkflowTest"/>
+
+            <class name="tests.InvalidLoginValidationTest"/>
+
+            <class name="tests.EmployeeDashboardValidationTest"/>
+
+            <class name="tests.CustomerServiceValidationTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
