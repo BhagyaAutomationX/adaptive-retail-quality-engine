@@ -1,14 +1,14 @@
 # Adaptive Retail Quality Engine
 
-Enterprise-grade hybrid automation framework designed for validating scalable retail workflows across UI, API, and database layers using Selenium WebDriver, REST Assured, JDBC, Java, TestNG, and Maven.
+Enterprise hybrid automation framework designed for validating retail business workflows across UI, API, and database layers using Selenium WebDriver, REST Assured, JDBC, Java, TestNG, and Maven.
 
 ---
 
 # Project Overview
 
-Adaptive Retail Quality Engine is a workflow-driven automation framework developed to simulate real-world enterprise retail quality engineering processes. The framework integrates UI automation, API validation, database verification, retry orchestration, reusable utilities, and scalable browser management into a maintainable automation architecture.
+Adaptive Retail Quality Engine is a workflow-driven automation framework developed to simulate real-world retail quality engineering processes. The framework integrates UI automation, API validation, reusable utilities, retry handling, configurable execution setup, and database verification into a scalable automation architecture.
 
-This framework is designed following enterprise engineering practices instead of tutorial-style automation implementation.
+The project was designed with maintainability, reusable components, and workflow-based validations instead of basic tutorial-style automation implementation.
 
 ---
 
@@ -16,15 +16,15 @@ This framework is designed following enterprise engineering practices instead of
 
 * Selenium WebDriver UI Automation
 * REST Assured API Validation
-* JDBC Database Validation
-* Cross Browser Execution
-* Retry Handling for Unstable Tests
-* Screenshot Capture for Failed Executions
-* Workflow-Driven Test Architecture
+* JDBC Database Verification
+* Cross Browser Execution Support
+* Retry Handling for Failed Executions
+* Screenshot Capture Utility
+* Workflow-Based Automation Design
 * Reusable Utility Components
 * Configurable Execution Environment
 * Maven Dependency Management
-* TestNG Suite Management
+* TestNG Suite Execution
 
 ---
 
@@ -41,17 +41,16 @@ This framework is designed following enterprise engineering practices instead of
 
 # Tech Stack
 
-| Component           | Technology               |
-| ------------------- | ------------------------ |
-| Language            | Java                     |
-| UI Automation       | Selenium WebDriver       |
-| API Automation      | REST Assured             |
-| Testing Framework   | TestNG                   |
-| Build Tool          | Maven                    |
-| Database Validation | JDBC + MySQL             |
-| Browser Management  | WebDriverManager         |
-| CI/CD Ready         | GitHub Actions + Jenkins |
-| IDE                 | Eclipse IDE              |
+| Component            | Technology         |
+| -------------------- | ------------------ |
+| Programming Language | Java               |
+| UI Automation        | Selenium WebDriver |
+| API Automation       | REST Assured       |
+| Framework            | TestNG             |
+| Build Tool           | Maven              |
+| Database Validation  | JDBC + MySQL       |
+| Browser Management   | WebDriverManager   |
+| IDE                  | Eclipse IDE        |
 
 ---
 
@@ -112,9 +111,9 @@ API Validation Layer
 ↓
 Database Validation Layer
 ↓
-Reporting & Retry Layer
+Retry & Logging Layer
 ↓
-CI/CD Execution Layer
+Execution & Reporting Layer
 ```
 
 ---
@@ -129,12 +128,6 @@ git clone https://github.com/your-username/adaptive-retail-quality-engine.git
 
 ---
 
-## Import Project
-
-Import as Maven Project in Eclipse IDE.
-
----
-
 ## Install Dependencies
 
 ```bash
@@ -143,7 +136,7 @@ mvn clean install
 
 ---
 
-## Execute Test Suite
+## Execute Automation Suite
 
 ```bash
 mvn test
@@ -161,7 +154,7 @@ using TestNG Suite execution.
 
 # Cross Browser Support
 
-Framework supports:
+Framework currently supports:
 
 * Chrome
 * Firefox
@@ -181,49 +174,27 @@ browser=chrome
 
 ---
 
-# Reporting
-
-Framework supports:
-
-* Execution screenshots
-* Retry handling
-* Console execution logging
-* Workflow execution tracking
-
-Execution evidence is automatically captured during automation runs.
-
----
-
-# CI/CD Integration
-
-The framework is CI/CD ready and supports:
-
-* GitHub Actions
-* Jenkins Pipeline Integration
-
----
-
 # Engineering Highlights
 
-* Enterprise naming conventions
 * Workflow-driven automation design
-* Maintainable framework architecture
-* Reusable utility implementation
-* Scalable browser lifecycle management
-* Integrated API + UI + DB validation
-* Human-engineered automation structure
+* Reusable browser lifecycle management
+* API + UI + DB validation integration
+* Maintainable automation structure
+* Retry orchestration handling
+* Configurable execution setup
+* Human-readable workflow implementation
 
 ---
 
-# Future Enhancements
+# Planned Enhancements
 
 * Extent Reports Integration
-* Docker Execution
-* Parallel Test Execution
+* GitHub Actions Pipeline
+* Jenkins Integration
+* Parallel Execution
 * Excel Data Provider
+* Docker Execution
 * AI Self-Healing Locator Engine
-* OpenAI-based Failure Analysis
-* Allure Reporting
 
 ---
 
@@ -231,4 +202,4 @@ The framework is CI/CD ready and supports:
 
 Bhagya Shastrakar
 
-Automation QA Engineer | Selenium | REST Assured | Java | Hybrid Automation Frameworks | AI-Driven Testing
+Automation QA Engineer | Selenium | REST Assured | Hybrid Automation Framework Development
