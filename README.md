@@ -123,7 +123,7 @@ Execution & Reporting Layer
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/adaptive-retail-quality-engine.git
+git clone https://github.com/BhagyaAutomationX/adaptive-retail-quality-engine.git
 ```
 
 ---
